@@ -10,7 +10,7 @@ exports.default = {
       //example media is cover you can replace with your photos
       //you can make multi galery and text each galleries
       const galery = [
-         ['1', '', cover, []], 
+         ['*DOWNLOAD MENU*\n┌───\n│ ⭓ SONG', '', cover, []], 
          ['2', '', media, []],
          ['3', '', media, []],
          ['4', '', media, []],
