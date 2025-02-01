@@ -1,7 +1,7 @@
 exports.default = {
    names: ['Main Menu'],
    tags: ['menu'],
-   command: ['menu', 'help', 'allmenu', 'command', 'm', 'all', 'meni'],
+   command: ['menu2'],
    start: async (m, {
       conn,
       text,
