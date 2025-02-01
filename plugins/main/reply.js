@@ -11,8 +11,8 @@ exports.default = {
        */
       //example reply message without advertisement
       conn.adReply(m.chat, 'Please Type .menu', cover, m, {
-         showAds: false,  // or true with advertisement
-         manyForward: false //true with forwarded manytimes ads must be false
+         showAds: true,  // or true with advertisement
+         manyForward: true //true with forwarded manytimes ads must be false
       })                
    }
 };
