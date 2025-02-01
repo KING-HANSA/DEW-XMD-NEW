@@ -10,19 +10,59 @@ exports.default = {
       Format
    }) => {
       //kalo mau buat list message contohnya kaya gini kostum sendiri ke plugin lain
-      let caption = `👋 Hai @${m.sender.split('@')[0]}\n` //your text
-      caption += `This Is Example List Message`
+      let caption = `👋 HI @${m.sender.split('@')[0]}\n` //your text
+      caption += `This IS DEW-XMD LIS MENU`
       let sections = [{
-         title: 'Example',
+         title: 'DEW-XMD-MENU',
          rows: [
             {
-               title: 'Menu Tes',
-               description: `Menampilkan Example Ping`,
+               title: 'Download Menu',
+               description: `Total Command -`,
                id: '.ping'
             },
             {
-               title: 'Menu Info',
-               description: `Script Bot`,
+               title: 'Search Menu',
+               description: `Total Command -`,
+               id: '.ping'
+            },
+            {
+               title: 'Convert Menu',
+               description: `Total Command -`,
+               id: '.ping'
+            },
+            {
+               title: 'Misc Menu',
+               description: `Total Command -`,
+               id: '.ping'
+            },
+            {
+               title: 'Group Menu',
+               description: `Total Command -`,
+               id: '.ping'
+            },
+            {
+               title: 'Owner Menu',
+               description: `Total Command -`,
+               id: '.ping'
+            },
+            {
+               title: 'Logo Menu',
+               description: `Total Command -`,
+               id: '.ping'
+            },
+            {
+               title: 'Main Menu',
+               description: `Total Command -`,
+               id: '.ping'
+            },
+            {
+               title: 'Movie Menu',
+               description: `Total Command -`,
+               id: '.ping'
+            },
+            {
+               title: 'Ai Menu',
+               description: `Total Command -`,
                id: '.sc'
             }
          ]
