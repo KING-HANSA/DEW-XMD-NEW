@@ -6,8 +6,15 @@ exports.default = {
       conn
    }) => {
       const caption = '> DEW-MD MAIN MENU'
-      const media = cover
-      const media2 = cover
+      const owner = 'https://qu.ax/MMlLY.jpg' 
+      const group = 'https://qu.ax/LsyNC.jpg'
+      const tools = 'https://qu.ax/uiNZo.jpg'
+      const convert = 'https://qu.ax/SyqfJ.jpg'
+      const anime = 'https://qu.ax/DloDS.jpg'
+      const download = 'https://qu.ax/UpjDa.jpg'
+      const games = 'https://qu.ax/WaVvW.jpg'
+      const internet = 'https://qu.ax/XstzN.jpg'
+      const main = 'https://qu.ax/hUnPh.jpg'
       //example media is cover you can replace with your photos
       //you can make multi galery and text each galleries
       const galery = [
