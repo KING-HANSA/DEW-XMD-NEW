@@ -1,16 +1,17 @@
 exports.default = {
    names: ['Main Menu'],
    tags: ['slide'],
-   command: ['slide'],
+   command: ['menu', 'help', 'allmenu', 'command', 'm', 'all', 'meni'],
    start: async (m, {
       conn
    }) => {
       const caption = '> DEW-MD MAIN MENU'
       const media = cover
+      const media2 = cover
       //example media is cover you can replace with your photos
       //you can make multi galery and text each galleries
       const galery = [
-         ['*◈━───────── OWNER MENU ───────────━◈*\n\n> Select Your Want Command And Type With Prefix\n\n╭──────────●●►\n│► ADDLIMIT\n│► ADDPREM\n│► BANNED\n│► BAN\n│► BROADCAST\n│► DATABASE\n│► GETPLUGINS\n│► JOIN\n│► MUTE\n│► UNMUTE\n│► ADDOWNER\n│► DELOWNER\n│► ADDLIST\n│► BACKUP\n│► RESTORE\n│► RESTART\n│► SELF\n│► PUBLIC\n│► SETTHUMB\n│► SETCOVER\n│► SETPPGC\n│► UNBAN\n│► MYIP\n│► SETPPBOT\n│► SETNAMEBOT\n│► SETNAMEOWNER\n│► SETMENU\n│► SETPREFIX\n│► SETFOOTER\n│► RAM\n│► SETLINK\n│► SETGROUPMODE\n╰───────────●●►', '', media, []],
+         ['*◈━───────── OWNER MENU ───────────━◈*\n\n> Select Your Want Command And Type With Prefix\n\n╭──────────●●►\n│► ADDLIMIT\n│► ADDPREM\n│► BANNED\n│► BAN\n│► BROADCAST\n│► DATABASE\n│► GETPLUGINS\n│► JOIN\n│► MUTE\n│► UNMUTE\n│► ADDOWNER\n│► DELOWNER\n│► ADDLIST\n│► BACKUP\n│► RESTORE\n│► RESTART\n│► SELF\n│► PUBLIC\n│► SETTHUMB\n│► SETCOVER\n│► SETPPGC\n│► UNBAN\n│► MYIP\n│► SETPPBOT\n│► SETNAMEBOT\n│► SETNAMEOWNER\n│► SETMENU\n│► SETPREFIX\n│► SETFOOTER\n│► RAM\n│► SETLINK\n│► SETGROUPMODE\n╰───────────●●►', '', media2, []],
          ['*◈━───────── GROUP MENU ───────────━◈*\n\n> Select Your Want Command And Type With Prefix\n\n╭──────────●●►\n│► ABSEN\n│► ABSENSTART\n│► CEKABSEN\n│► TUTUPABSEN\n│► HAPUSABSEN\n│► DEMOTE\n│► KICK\n│► TENDANG\n│► KICKALL\n│► LINKGC\n│► LINK\n│► LINKGROUP\n│► GROUPOFF\n│► TUTUP\n│► GROUPON\n│► BUKA\n│► JADIADMIN\n│► PROMOTE\n│► RESETLINK\n│► REVOKE\n│► SETDESCGC\n│► SETDESCGC\n│► SETDESCRIPTIONGROUP\n│► SETNAMEGC\n│► SETNAMEGROUP\n│► TAGALL\n│► INFOGC\n│► INFOGROUP\n│► SETWELCOME\n│► SETBYE\n╰───────────●●►', '', media, []],
          ['*◈━───────── TOOLS MENU ───────────━◈*\n\n> Select Your Want Command And Type With Prefix\n\n╭──────────●●►\n│► DELETE\n│► ON\n│► OFF\n│► GETXIF\n│► RVO\n│► READVIEWONCE\n│► LIHAT\n│► REMINI\n│► HD\n│► TTS\n│► GTTS\n│► BLEND\n│► BLENDAUDIO\n│► BLENDVIDEO\n│► CROP\n│► RESIZE\n│► CUTAUDIO\n│► CUTVIDEO\n│► FUSE\n│► FUSEMEDIA\n│► GETPP\n│► TOAUDIO\n│► TRANSLATE\n│► TOURL\n│► UPLOAD\n╰───────────●●►', '', media, []],
          ['*◈━─────────── CONVERT MENU ─────────━◈*\n\n> Select Your Want Command And Type With Prefix\n\n╭──────────●●►\n│► BYELIMIT\n│► CEKSN\n│► HOUR\n│► CLAIMKUPON\n│► CLAIMUANG\n│► CLAIM\n│► TUKARKUPON\n│► KUPON\n│► LIMIT\n│► LAPOR\n│► MENFESS\n│► MFS\n│► TUTUPMENFESS\n│► AKHIRIMENFESS\n│► CATATAN\n│► PROFILE\n│► BALANCE\n│► TRANSFERLIMIT\n│► UNREG\n│► AFK\n│► DAFTAR\n╰───────────●●►', '', media, []],
