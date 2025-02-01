@@ -1,7 +1,7 @@
 exports.default = {
    names: ['Main Menu'],
    tags: ['list'],
-   command: ['list'],
+   command: ['list', 'listmenu'],
    start: async (m, {
       conn,
       text,
@@ -17,58 +17,63 @@ exports.default = {
          rows: [
             {
                title: 'Download Menu',
-               description: `Total Command -`,
-               id: '.ping'
+               description: `Total Command - 18`,
+               id: '.menu2 downloader'
             },
             {
-               title: 'Search Menu',
+               title: 'Internet Menu',
                description: `Total Command -`,
-               id: '.ping'
+               id: '.menu2 internet'
             },
             {
-               title: 'Convert Menu',
-               description: `Total Command -`,
-               id: '.ping'
+               title: 'Games Menu',
+               description: `Total Command - 19`,
+               id: '.menu2 games'
             },
             {
-               title: 'Misc Menu',
+               title: 'Anime Menu',
                description: `Total Command -`,
-               id: '.ping'
+               id: '.menu2 anime'
             },
             {
                title: 'Group Menu',
-               description: `Total Command -`,
-               id: '.ping'
+               description: `Total Command - 30`,
+               id: '.menu2 group'
             },
             {
                title: 'Owner Menu',
                description: `Total Command -`,
-               id: '.ping'
+               id: '.menu2 owner'
             },
             {
-               title: 'Logo Menu',
+               title: 'Maker Menu',
                description: `Total Command -`,
-               id: '.ping'
+               id: '.menu2 maker'
             },
             {
                title: 'Main Menu',
                description: `Total Command -`,
-               id: '.ping'
+               id: '.menu2 main menu'
             },
             {
-               title: 'Movie Menu',
+               title: 'Audio Menu',
                description: `Total Command -`,
-               id: '.ping'
+               id: '.menu2 audio'
             },
             {
-               title: 'Ai Menu',
+               title: 'Tools Menu',
+               description: `Total Command - 26`,
+               id: '.menu2 tools'
+            },
+            {
+               title: 'User Menu',
                description: `Total Command -`,
-               id: '.sc'
+               id: '.menu2 user menu'
             }
          ]
       }]
       let listMessage = {
-         title: 'Select Here',
+         title: 'DEW-XMD-LIST',
          sections
       }
       /* isMedia: true 
